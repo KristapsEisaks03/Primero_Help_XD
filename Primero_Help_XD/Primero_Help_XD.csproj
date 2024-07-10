@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="_bg\Yu-Ching_Fei-_Yi_Jian_xue_hua_piao_piao_bei_feng_xiao_xiao_hehe.wav" />
+    <None Remove="_img\Screenshot 2024-07-09 132020.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132221.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132253.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132306.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132311.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132324.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132330.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132413.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132420.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132425.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132428.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132441.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132450.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132532.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132535.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132617.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132649.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132653.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132706.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132733.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132753.png" />
+    <None Remove="_img\Screenshot 2024-07-09 132913.png" />
+    <None Remove="_img\Screenshot 2024-07-09 133105.png" />
+    <None Remove="_img\Screenshot 2024-07-09 133137.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="_bg\Yu-Ching_Fei-_Yi_Jian_xue_hua_piao_piao_bei_feng_xiao_xiao_hehe.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132221.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132253.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132306.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132311.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132324.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132330.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132413.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132420.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132425.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132428.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132441.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132450.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132532.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132535.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132617.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132649.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132653.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132706.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132733.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132753.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 132913.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 133105.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="_img\Screenshot 2024-07-09 133137.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="_img\Screenshot 2024-07-09 132020.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

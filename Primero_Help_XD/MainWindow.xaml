@@ -1,0 +1,99 @@
+﻿<Window x:Class="Primero_Help_XD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Primero_Help_XD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Icon="/_img/Screenshot 2024-07-09 132535.png" ResizeMode="CanMinimize">
+    <Grid>
+        <Border CornerRadius="7" BorderThickness="1" BorderBrush="Black" Margin="332,111,0,0" Height="23" Width="350" MinWidth="350" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="TB_Card_Number" FontFamily="Arial Rounded MT Bold" GotFocus="TextBox_GotFocus" Height="Auto" TextWrapping="Wrap" Text="Card Number" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="15">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Border>
+
+
+        <Border CornerRadius="7" BorderThickness="1" BorderBrush="Black" Margin="332,161,0,0" Height="23" Width="350" MinWidth="350" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="TB_Expiry_Date" FontFamily="Arial Rounded MT Bold" GotFocus="TextBox_GotFocus" Width="Auto" TextWrapping="Wrap" Text="Expiry Date" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="15">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Border>
+
+        <Border CornerRadius="7" BorderThickness="1" BorderBrush="Black" Margin="332,217,0,0" Height="23" Width="350" MinWidth="350" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="TB_Sort_Code" FontFamily="Arial Rounded MT Bold" GotFocus="TextBox_GotFocus" Width="Auto" TextWrapping="Wrap" Text="Sort Code" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="15">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Border>
+
+
+        <Border CornerRadius="7" BorderThickness="1" BorderBrush="Black" Margin="332,271,0,0" Height="23" Width="350" MinWidth="350" Grid.RowSpan="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox x:Name="TB_Security_Code" FontFamily="Arial Rounded MT Bold" GotFocus="TextBox_GotFocus" Width="Auto" TextWrapping="Wrap" Text="Security Code :3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="15">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Border>
+        <Image HorizontalAlignment="Left" Height="197" Margin="376,71,0,0" VerticalAlignment="Top" Width="269" Source="/_img/Screenshot 2024-07-09 132617.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+
+        <Image HorizontalAlignment="Left" Height="242" Margin="-216,25,0,0" VerticalAlignment="Top" Width="394" Source="/_img/Screenshot 2024-07-09 132450.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="430,359,0,0" VerticalAlignment="Top" Width="248" Source="/_img/Screenshot 2024-07-09 132649.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="151" Margin="219,191,0,0" VerticalAlignment="Top" Width="211" Source="/_img/Screenshot 2024-07-09 132653.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="196" Margin="0,246,0,0" VerticalAlignment="Top" Width="266" Source="/_img/Screenshot 2024-07-09 132324.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+
+        <Image HorizontalAlignment="Left" Height="189" Margin="608,-9,0,0" VerticalAlignment="Top" Width="214" Source="/_img/Screenshot 2024-07-09 132535.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="163" Margin="422,246,0,0" VerticalAlignment="Top" Width="264" Source="/_img/Screenshot 2024-07-09 132913.png" Panel.ZIndex="-1" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="196" Margin="342,-9,0,0" VerticalAlignment="Top" Width="286" Source="/_img/Screenshot 2024-07-09 132311.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="633,161,0,0" VerticalAlignment="Top" Width="189" Source="/_img/Screenshot 2024-07-09 132330.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="248,301,0,0" VerticalAlignment="Top" Width="189" Source="/_img/Screenshot 2024-07-09 132413.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="105" Margin="-41,-8,0,0" VerticalAlignment="Top" Width="134" Source="/_img/Screenshot 2024-07-09 132420.png" Stretch="UniformToFill" Panel.ZIndex="-1" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.533"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="143" Margin="211,-14,0,0" VerticalAlignment="Top" Width="189" Source="/_img/Screenshot 2024-07-09 132425.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="645,301,0,0" VerticalAlignment="Top" Width="189" Source="/_img/Screenshot 2024-07-09 132428.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="211,123,0,0" VerticalAlignment="Top" Width="189" Source="/_img/Screenshot 2024-07-09 132441.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+        <Image HorizontalAlignment="Left" Height="151" Margin="0,-9,0,0" VerticalAlignment="Top" Width="211" Source="/_img/Screenshot 2024-07-09 132706.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+
+
+
+
+        <Image HorizontalAlignment="Left" Height="233" Margin="78,51,0,0" VerticalAlignment="Top" Width="163" Source="/_img/Screenshot 2024-07-09 132253.png" Stretch="UniformToFill" Panel.ZIndex="-1"/>
+
+        <Button x:Name="btn_Send" Content="Pwease Send Support to Primero:'3" Margin="332,367,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="25" Width="250" FontFamily="Arial Rounded MT Bold" Click="btn_Send_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <SolidColorBrush Color="#FFF6FF92"/>
+            </Button.Background>
+        </Button>
+        <Label Content="🐾 “Save Primero!” 🐾 " HorizontalAlignment="Left" Height="Auto" Margin="316,0,0,0" VerticalAlignment="Top" Width="Auto" Background="#00AF8B8B" Foreground="White" FontFamily="Arial Black" FontSize="30"/>
+        <Label Content="🌟 Donate now: 💔" HorizontalAlignment="Left" Height="Auto" Margin="444,82,0,0" VerticalAlignment="Top" Width="Auto" Background="#00AF8B8B" Foreground="White" FontFamily="Arial Black"/>
+
+
+
+    </Grid>
+</Window>

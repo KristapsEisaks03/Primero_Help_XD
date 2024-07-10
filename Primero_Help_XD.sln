@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primero_Help_XD", "Primero_Help_XD\Primero_Help_XD.csproj", "{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EFA842B-C3D2-4A06-B585-C536311B5EEF}
+	EndGlobalSection
+EndGlobal

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj": {}
+    "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj": {
+    "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj",
+        "projectUniqueName": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj",
         "projectName": "Primero_Help_XD",
-        "projectPath": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj",
+        "projectPath": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD.csproj",
         "packagesPath": "C:\\Users\\CrispsMistress\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\obj\\",
+        "outputPath": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

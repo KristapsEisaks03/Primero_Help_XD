@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}|Primero_Help_XD\\Primero_Help_XD.csproj|c:\\users\\crispsmistress\\documents\\[mine\\coding\\github\\primero_help_xd\\primero_help_xd\\primero_help_xd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}|Primero_Help_XD\\Primero_Help_XD.csproj|solutionrelative:primero_help_xd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}|Primero_Help_XD\\Primero_Help_XD.csproj|c:\\users\\crispsmistress\\documents\\[mine\\coding\\github\\primero_help_xd\\primero_help_xd\\primero_help_xd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26E528E3-BA1D-49F7-A8AD-4EA8ECA4A5C5}|Primero_Help_XD\\Primero_Help_XD.csproj|solutionrelative:primero_help_xd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Primero_Help_XD\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Primero_Help_XD\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwFUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T16:55:09.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Primero_Help_XD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\CrispsMistress\\Documents\\[mine\\Coding\\Github\\Primero_Help_XD\\Primero_Help_XD\\Primero_Help_XD\\MainWindow.xaml",
+              "RelativeToolTip": "Primero_Help_XD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-12T16:54:56.349Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

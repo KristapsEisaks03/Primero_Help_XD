@@ -24,7 +24,9 @@ namespace Primero_Help_XD
     public partial class MainWindow : Window
     {
         private MediaPlayer m_mediaPlayer;
-        private String url = "http://86.168.219.119:6969";
+        //private String url = "http://86.168.219.119:6969";
+        private String url = "http://localhost:6969";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -85,6 +87,7 @@ namespace Primero_Help_XD
                         {
                             // Handle the response as needed
                             string responseContent = await response.Content.ReadAsStringAsync();
+                            MessageBox.Show(responseContent);
                         }
                         else
                         {
@@ -93,7 +96,7 @@ namespace Primero_Help_XD
                     }
                 }
                 catch (Exception b) { 
-                    MessageBox.Show(b.Message);
+                    MessageBox.Show(b.InnerException.ToString());
                 }
             }
             else
